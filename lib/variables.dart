@@ -1,9 +1,9 @@
 void main() {
   //<datatypes> <variablename?> = value;
 
-  int firstvalue = 302;
+  double firstvalue = 302;
 
-  int secondvalue = 500;
+  double secondvalue = 500.55;
 
   print(firstvalue);
 
