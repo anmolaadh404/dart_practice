@@ -1,7 +1,9 @@
 void main() {
   //<datatypes> <variablename?> = value;
+  //<Bool stand for Boolean> = <True or False>
 
-  String firstvalue = "Hello World!";
-
-  print(firstvalue);
+  bool isanadult = true;
+  bool isanchild = false;
+  print(isanadult);
+  print(isanchild);
 }
