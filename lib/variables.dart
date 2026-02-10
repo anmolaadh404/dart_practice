@@ -1,9 +1,7 @@
 void main() {
-  //<datatypes> <variablename?> = value;
-  //<Bool stand for Boolean> = <True or False>
-
-  bool isanadult = true;
-  bool isanchild = false;
-  print(isanadult);
-  print(isanchild);
+  //variable
+  String greeting = 'Hello World';
+  print(greeting);
+  greeting = '$greeting from Dart';
+  print(greeting);
 }
