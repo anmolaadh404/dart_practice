@@ -1,11 +1,16 @@
 void main() {
-  //first value
-  print(19);
+  //<datatypes> <variablename?> = value;
+
+  int firstvalue = 302;
+
+  int secondvalue = 500;
+
+  print(firstvalue);
 
   // second value
-  print(5);
+  print(secondvalue);
 
-  print(19 * 5);
-  print(19 + 5);
-  print(19 - 5);
+  print(firstvalue * secondvalue);
+  print(firstvalue + secondvalue);
+  print(firstvalue - secondvalue);
 }
