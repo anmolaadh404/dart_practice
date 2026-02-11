@@ -1,4 +1,4 @@
-void main() {
+/*void main() {
   String name = 'Anmol';
   int age = 22;
   bool student = true;
@@ -8,4 +8,28 @@ void main() {
   print('Age: $age');
   print('Is a student : $student');
   print('Height: $height');
+ }*/
+
+/*void main(){
+   String name = 'Anmol';
+   int age = 22;
+   
+   int futureage = age + 5;
+    print ('My name is $name, and I am $age years old. In 5 years I will be $futureage years old.'); */
+
+void main() {
+  var somevalue1 = 10;
+  final somevalue2 = 10;
+  const somevalue3 = 10;
+  print(somevalue1);
+  print(somevalue2);
+  print(somevalue3);
+
+  print('--------------');
+
+  somevalue1 = 1000;
+
+  print(somevalue1);
+  print(somevalue2);
+  print(somevalue3);
 }
