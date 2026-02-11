@@ -2,6 +2,6 @@ void main() {
   //variable
   String greeting = 'Hello World';
   print(greeting);
-  greeting = '$greeting from Dart';
+  greeting = '${greeting.length} from Dart';
   print(greeting);
 }
