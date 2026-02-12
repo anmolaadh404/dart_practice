@@ -47,8 +47,7 @@
 
 void main() {
   final somevalue = DateTime.now();
-  const someconstvalue =
-      DateTime.now(); // This line would cause an error because const variables must be compile-time constants
+  // const someconstvalue = DateTime.now(); // This line would cause an error because const variables must be compile-time constants
   print(somevalue);
-  print(someconstvalue);
+  // print(someconstvalue);
 }
