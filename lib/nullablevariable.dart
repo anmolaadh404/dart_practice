@@ -15,7 +15,7 @@ void main() {
   print(age);
 
   String? someValue;
-  print(someValue?.length); // Output: null
+  print(someValue?.length ?? 0); // Output: 0 (because someValue is null)
 
   someValue = 'Hello, Dart!';
   print(someValue.length); // Output: Hello, Dart!
