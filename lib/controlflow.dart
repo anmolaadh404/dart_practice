@@ -1,12 +1,9 @@
 void main() {
-  //If STATEMENT
-  int age = 20;
+  int age = 13;
   if (age >= 18) {
-    print('ADULT');
-  }
-  if (age < 18) {
-    print('MINOR');
+    //IF else statement
+    print('You are an adult');
   } else {
-    print('MINOR');
+    print('You are a Minor');
   }
 }
