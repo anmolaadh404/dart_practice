@@ -4,13 +4,13 @@ bool isadult = false;
 // && = Logical AND operator.
 // (=) = Assignment operator.
 void main() {
-  int age = 17;
+  int age = 22;
 
-  if (isadult) {
-    print('You are an adult 21');
-  } else if (age >= 18) {
-    print('You are an adult');
+  if (age < 14) {
+    print('You are a minor.');
+  } else if (age >= 21) {
+    print('You are a Adult 21.');
   } else {
-    print('You are a Minor');
+    print('You are an adult');
   }
 }
