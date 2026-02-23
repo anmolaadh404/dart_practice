@@ -11,6 +11,6 @@ void main() {
   } else if (age >= 21) {
     print('You are a Adult 21.');
   } else {
-    print('Adult');
+    print('You are an Adult but not 21.');
   }
 }
